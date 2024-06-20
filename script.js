@@ -17,5 +17,3 @@ console.log(randomValue(colors));//Check the index of returned value. Only for d
 setColor(randomValue(colors))
 
 
-console.log(typeof colors);
-
