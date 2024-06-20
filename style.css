@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+div#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(226, 236, 236);
+    height: 100vh;
+}
