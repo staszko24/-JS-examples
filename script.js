@@ -7,8 +7,8 @@ function randomValue(arr) {
 }
 
 function setColor(fn) {
-    const elm = document.getElementById('content');
-    elm.style.backgroundColor = colors[fn];
+    const element = document.getElementById('content');
+    element.style.backgroundColor = colors[fn];
 }
 
 console.log(randomValue(colors));//Check the index of returned value. Only for developing purpose. Delete in final version!
