@@ -11,8 +11,6 @@ function setColor(fn) {
     element.style.backgroundColor = colors[fn];
 }
 
-console.log(randomValue(colors));//Check the index of returned value. Only for developing purpose. Delete in final version!
-
 (() => setColor(randomValue(colors)))();
 
 
