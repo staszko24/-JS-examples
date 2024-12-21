@@ -6,12 +6,17 @@ function randomValue(arr) {
     return random;
 }
 
-function setColor(fn) {
+function setColor(fn, arr) {
     const element = document.getElementById('content');
-    element.style.backgroundColor = colors[fn];
+    if(element){
+        element.style.backgroundColor = arr[fn];
+    }else{
+        console.error('content does not exist');
+    }
+    
 }
 
-(() => setColor(randomValue(colors)))();
+(() => setColor(randomValue(colors), colors))();
 
 
 
